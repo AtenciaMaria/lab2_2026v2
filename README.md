@@ -1,6 +1,16 @@
 # lab2_2026v2
 
 [![CI/CD Pipeline](https://github.com/AtenciaMaria/lab2_2026v2/actions/workflows/build.yml/badge.svg)](https://github.com/AtenciaMaria/lab2_2026v2/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=bugs)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=coverage)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=AtenciaMaria_lab2_2026v2&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=AtenciaMaria_lab2_2026v2)
+
+
+
+
 
 # BIENVENIDO A MI APP PARA GENERACION DE DATOS ALEATORIOS
 
