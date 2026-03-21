@@ -80,6 +80,8 @@
 				</executions>
 			</plugin>
 		</plugins>
+
+		<finalName>lab2026v2</finalName>
 	</build>
 
 </project>
