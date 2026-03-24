@@ -90,10 +90,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-          
-      - name: Clean Maven cache
-        run: rm -rf ~/.m2/repository
-
       #Set up Maven cache
       - name: Cache Maven packages
         #This action allows caching dependencies and build outputs to improve workflow execution time.
@@ -115,3 +111,12 @@ jobs:
           #From this path
           path: target/lab2026v2.jar
 
+      - name: Build & push Docker image
+        uses: mr-smithers-excellent/docker-build-push@v6
+        with:
+          image: fer4589/lab2026v2
+          tags: latest
+          registry: docker.io
+          dockerfile: Dockerfile
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
